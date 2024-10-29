@@ -68,6 +68,7 @@ export default function Map() {
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+        accessToken="f6ba29e8-2ded-49c3-8740-07af5a2ee1d8"
         minZoom={4}
         maxZoom={12}
       />
