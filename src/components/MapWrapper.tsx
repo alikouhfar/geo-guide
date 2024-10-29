@@ -1,4 +1,5 @@
 import { MapContainer } from "react-leaflet";
+import { mediterraneanSeaLatlng } from "../lib/defaultValues";
 import Map from "./Map";
 
 export default function MapWrapper() {
@@ -6,8 +7,8 @@ export default function MapWrapper() {
     <main className="flex-1">
       <MapContainer
         preferCanvas={true}
-        center={[40, -4]}
-        zoom={6}
+        center={mediterraneanSeaLatlng}
+        zoom={4}
         zoomControl={false}
         className="w-full h-full"
       >
