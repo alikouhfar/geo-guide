@@ -1,7 +1,6 @@
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { Toaster } from "react-hot-toast";
 import ContentWrapper from "./components/ContentWrapper";
 
@@ -12,7 +11,6 @@ function App() {
     <MantineProvider>
       <QueryClientProvider client={queryClient}>
         <ContentWrapper />
-        <ReactQueryDevtools initialIsOpen={false} />
         <Toaster
           position="top-center"
           gutter={12}
