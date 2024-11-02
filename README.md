@@ -88,7 +88,7 @@ During the development of Geo Guide, we gained several valuable insights:
 
 To get started with this project, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your_username/geoguide.git`
+1. Clone this repository: `git clone https://github.com/alikouhfar/geoguide.git`
 2. Navigate to the project directory: `cd geoguide`
 3. Install dependencies: `npm install`
 4. Set up your local environment variables (API keys, etc.)
